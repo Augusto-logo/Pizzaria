@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas</title>
+    <link rel="stylesheet" href="receita.css">
+</head>
+
+<body>
+    <header>
+        <h1>Receitas</h1>
+        <a href="../index.html">Início</a> 
+        <a href="../logout/logout.html">Logout</a><br><br>
+    </header>
+    <main>
+        <h2>Listagem</h2>
+        <button id="btNovo">Novo</button>
+        <table border="1">
+            <thead>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>PIZZA</th>
+                        <th>INGREDIENTE</th>
+                        <th>MODO_PREPARO</th>
+                        <th>TEMPO_PREPARO</th>
+                        <th>TEMPERATURA_FORNO</th>
+                        <th>AÇÕES</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </main>
+    <div id="modal">
+    <form action="">
+        <input type="hidden" name="id" id="id"><br>
+
+        <label for="PizzaId">Pizza</label><br>
+        <select name="PizzaId" id="PizzaId"></select><br>
+
+        <label for="ingrediente">Ingrediente</label><br>
+        <input type="text" name="ingrediente" id="ingrediente"><br>
+
+        <label for="modoPreparo">ModoPreparo</label><br>
+        <input type="text" name="modoPreparo" id="modoPreparo"><br>
+
+        <label for="tempoPreparo">tempoPreparo</label><br>
+        <input type="text" name="tempoPreparo" id="tempoPreparo"><br>
+
+        <label for="temperaturaForno">TemperaturaForno</label><br>
+        <input type="text" name="temperaturaForno" id="temperaturaForno"><br>
+
+        <button>Salvar</button>
+    </form>
+    </div>
+    <footer>
+        <p>&copy Rosinei</p>
+    </footer>
+</body>
+<script type="module" src="receita.js"></script>
+</html>

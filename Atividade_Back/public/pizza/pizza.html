@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <link rel="stylesheet" href="pizza.css">
+</head>
+
+<body>
+    <header>
+        <h1>Título</h1>
+        <a href="../index.html">Início</a> 
+        <a href="../logout/logout.html">Logout</a><br><br>
+    </header>
+    <main>
+        <h2>Adicionar Pizza</h2>
+        <button id="btNovo">Nova</button>
+        <table border="1">
+            <thead>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>NOME</th>
+                        <th>TAMANHO</th>
+                        <th>PRECO</th>
+                        <th>NOTA</th>
+                        <th>VEGETARIANA</th>
+                        <th>AÇÕES</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </main>
+    <div id="modal">
+        <form action="">
+            <input type="hidden" name="id" id="id"><br>
+            <label for="nome">Nome</label><br>
+            <input type="text" name="nome" id="nome"><br>
+            <label for="idade">Tamanho</label><br>
+            <input type="text" name="tamanho" id="tamanho"><br>
+            <label for="preco">Preco</label><br>
+            <input type="text" name="preco" id="preco"><br>
+            <label for="nota">Nota</label><br>
+            <input type="text" name="nota" id="nota"><br>
+            <label for="vegetariana">Vegetariana</label><br>
+            <input type="text" name="vegetariana" id="vegetariana"><br>
+            <button>Salvar</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy Rosinei</p>
+    </footer>
+</body>
+<script type="module" src="pizza.js"></script>
+</html>

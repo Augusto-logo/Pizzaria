@@ -1,0 +1,22 @@
+{
+  "name": "9-08-04-back-node",
+  "version": "1.0.0",
+  "description": "Prática node.",
+  "main": "app.mjs",
+  "scripts": {
+    "dev": "node app.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sequelize/postgres": "^7.0.0-alpha.41",
+    "bcrypt": "^5.1.1",
+    "connect-session-sequelize": "^7.1.7",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mysql2": "^3.9.3",
+    "sequelize": "^6.37.2"
+  }
+}
